@@ -1,0 +1,3 @@
+stm32g484 ou stm32f413(10 uart 5spi 4 i2c) -- f7 et h7 on plus de preipherque
+ft232H
+M24M01-R
