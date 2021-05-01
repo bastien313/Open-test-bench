@@ -40,7 +40,7 @@ Each module has an access to 4 communication channels dedicated.
 - Power management.
 - ....
 
-#### Each module is building around the same format
+#### Suggested format of peripheral module
 - Galvanic isolation for simplifying referenced problems.
 - EEPROM for saves needed calibration.
 - Mechanical dimension (TBD), capability of a double module.

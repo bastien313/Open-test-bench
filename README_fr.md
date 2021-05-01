@@ -39,7 +39,7 @@ Chaque module a accès à 4 canaux de communications dédiés et utilise ceux qu
 - Gestion de puissance.
 - ....
 
-#### Chaque module périphérique est construit sur le même format
+#### Format suggeré pour les modules périphériques
 - Isolation galvanique pour simplifier les connexions extérieures.
 - EEPROM pour la sauvegarde d'éventuelles calibrations.
 - Encombrement mécanique (TBD), possibilité d'un double module.
