@@ -1,0 +1,489 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J1
+U 1 1 60922499
+P 1800 2950
+F 0 "J1" H 1850 3567 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 1850 3476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Horizontal" H 1800 2950 50  0001 C CNN
+F 3 "~" H 1800 2950 50  0001 C CNN
+	1    1800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J2
+U 1 1 609232EE
+P 1800 4250
+F 0 "J2" H 1850 4867 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 1850 4776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Horizontal" H 1800 4250 50  0001 C CNN
+F 3 "~" H 1800 4250 50  0001 C CNN
+	1    1800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 60924750
+P 2750 2700
+F 0 "C1" H 2865 2746 50  0000 L CNN
+F 1 "CP1" H 2865 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.7" H 2750 2700 50  0001 C CNN
+F 3 "~" H 2750 2700 50  0001 C CNN
+	1    2750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:ADuM1200WT U2
+U 1 1 609254DF
+P 4150 3425
+F 0 "U2" H 4150 3892 50  0000 C CNN
+F 1 "ADuM1200WT" H 4150 3801 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4150 3025 50  0001 C CIN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf" H 3700 3825 50  0001 C CNN
+	1    4150 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:ADuM1200WT U3
+U 1 1 60925F31
+P 4150 4225
+F 0 "U3" H 4150 4692 50  0000 C CNN
+F 1 "ADuM1200WT" H 4150 4601 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4150 3825 50  0001 C CIN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf" H 3700 4625 50  0001 C CNN
+	1    4150 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Converter_DCDC:TMR-2412 U1
+U 1 1 60927E3B
+P 4150 2450
+F 0 "U1" H 4150 2917 50  0000 C CNN
+F 1 "TMR-2412" H 4150 2826 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT" H 4150 2100 50  0001 C CNN
+F 3 "https://www.tracopower.com/products/tmr2.pdf" H 4150 1950 50  0001 C CNN
+	1    4150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 6092CB06
+P 5375 2575
+F 0 "C4" H 5490 2621 50  0000 L CNN
+F 1 "CP1" H 5490 2530 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.7" H 5375 2575 50  0001 C CNN
+F 3 "~" H 5375 2575 50  0001 C CNN
+	1    5375 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6092D218
+P 5800 2550
+F 0 "C5" H 5915 2596 50  0000 L CNN
+F 1 "C" H 5915 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5838 2400 50  0001 C CNN
+F 3 "~" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 6092D8CA
+P 5275 3425
+F 0 "C2" H 5390 3471 50  0000 L CNN
+F 1 "C" H 5390 3380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5313 3275 50  0001 C CNN
+F 3 "~" H 5275 3425 50  0001 C CNN
+	1    5275 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6092DAE4
+P 5300 4250
+F 0 "C3" H 5415 4296 50  0000 L CNN
+F 1 "C" H 5415 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5338 4100 50  0001 C CNN
+F 3 "~" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6092E046
+P 7425 2300
+F 0 "D1" H 7418 2045 50  0000 C CNN
+F 1 "LED" H 7418 2136 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 7425 2300 50  0001 C CNN
+F 3 "~" H 7425 2300 50  0001 C CNN
+	1    7425 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6092BE30
+P 6800 2675
+F 0 "R1" V 6593 2675 50  0000 C CNN
+F 1 "R" V 6684 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6730 2675 50  0001 C CNN
+F 3 "~" H 6800 2675 50  0001 C CNN
+	1    6800 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:SFH617A-1X007T U4
+U 1 1 6092B405
+P 7450 2775
+F 0 "U4" H 7450 3100 50  0000 C CNN
+F 1 "SFH617A-1X007T" H 7450 3009 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 7450 2425 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 7450 2725 50  0001 L CNN
+	1    7450 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6092F0A1
+P 6825 2300
+F 0 "R3" V 6618 2300 50  0000 C CNN
+F 1 "R" V 6709 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6755 2300 50  0001 C CNN
+F 3 "~" H 6825 2300 50  0001 C CNN
+	1    6825 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 60930341
+P 7450 3250
+F 0 "D3" H 7443 2995 50  0000 C CNN
+F 1 "LED" H 7443 3086 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 7450 3250 50  0001 C CNN
+F 3 "~" H 7450 3250 50  0001 C CNN
+	1    7450 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60930347
+P 6825 3625
+F 0 "R4" V 6618 3625 50  0000 C CNN
+F 1 "R" V 6709 3625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6755 3625 50  0001 C CNN
+F 3 "~" H 6825 3625 50  0001 C CNN
+	1    6825 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:SFH617A-1X007T U6
+U 1 1 6093034D
+P 7475 3725
+F 0 "U6" H 7475 4050 50  0000 C CNN
+F 1 "SFH617A-1X007T" H 7475 3959 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 7475 3375 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 7475 3675 50  0001 L CNN
+	1    7475 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60930353
+P 6850 3250
+F 0 "R7" V 6643 3250 50  0000 C CNN
+F 1 "R" V 6734 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6780 3250 50  0001 C CNN
+F 3 "~" H 6850 3250 50  0001 C CNN
+	1    6850 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 609376DF
+P 7425 4225
+F 0 "D2" H 7418 3970 50  0000 C CNN
+F 1 "LED" H 7418 4061 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 7425 4225 50  0001 C CNN
+F 3 "~" H 7425 4225 50  0001 C CNN
+	1    7425 4225
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 609376E5
+P 6800 4600
+F 0 "R2" V 6593 4600 50  0000 C CNN
+F 1 "R" V 6684 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6730 4600 50  0001 C CNN
+F 3 "~" H 6800 4600 50  0001 C CNN
+	1    6800 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:SFH617A-1X007T U5
+U 1 1 609376EB
+P 7450 4700
+F 0 "U5" H 7450 5025 50  0000 C CNN
+F 1 "SFH617A-1X007T" H 7450 4934 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 7450 4350 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 7450 4650 50  0001 L CNN
+	1    7450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 609376F1
+P 6825 4225
+F 0 "R5" V 6618 4225 50  0000 C CNN
+F 1 "R" V 6709 4225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6755 4225 50  0001 C CNN
+F 3 "~" H 6825 4225 50  0001 C CNN
+	1    6825 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 609376F7
+P 7450 5175
+F 0 "D4" H 7443 4920 50  0000 C CNN
+F 1 "LED" H 7443 5011 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 7450 5175 50  0001 C CNN
+F 3 "~" H 7450 5175 50  0001 C CNN
+	1    7450 5175
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 609376FD
+P 6825 5550
+F 0 "R6" V 6618 5550 50  0000 C CNN
+F 1 "R" V 6709 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6755 5550 50  0001 C CNN
+F 3 "~" H 6825 5550 50  0001 C CNN
+	1    6825 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:SFH617A-1X007T U7
+U 1 1 60937703
+P 7475 5650
+F 0 "U7" H 7475 5975 50  0000 C CNN
+F 1 "SFH617A-1X007T" H 7475 5884 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 7475 5300 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 7475 5600 50  0001 L CNN
+	1    7475 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60937709
+P 6850 5175
+F 0 "R8" V 6643 5175 50  0000 C CNN
+F 1 "R" V 6734 5175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6780 5175 50  0001 C CNN
+F 3 "~" H 6850 5175 50  0001 C CNN
+	1    6850 5175
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 6093B2D3
+P 9350 2375
+F 0 "D5" H 9343 2120 50  0000 C CNN
+F 1 "LED" H 9343 2211 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 9350 2375 50  0001 C CNN
+F 3 "~" H 9350 2375 50  0001 C CNN
+	1    9350 2375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6093B2D9
+P 8725 2750
+F 0 "R9" V 8518 2750 50  0000 C CNN
+F 1 "R" V 8609 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8655 2750 50  0001 C CNN
+F 3 "~" H 8725 2750 50  0001 C CNN
+	1    8725 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:SFH617A-1X007T U8
+U 1 1 6093B2DF
+P 9375 2850
+F 0 "U8" H 9375 3175 50  0000 C CNN
+F 1 "SFH617A-1X007T" H 9375 3084 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 9375 2500 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 9375 2800 50  0001 L CNN
+	1    9375 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 6093B2E5
+P 8750 2375
+F 0 "R11" V 8543 2375 50  0000 C CNN
+F 1 "R" V 8634 2375 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 2375 50  0001 C CNN
+F 3 "~" H 8750 2375 50  0001 C CNN
+	1    8750 2375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 6093B2EB
+P 9375 3325
+F 0 "D7" H 9368 3070 50  0000 C CNN
+F 1 "LED" H 9368 3161 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 9375 3325 50  0001 C CNN
+F 3 "~" H 9375 3325 50  0001 C CNN
+	1    9375 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 6093B2F1
+P 8750 3700
+F 0 "R12" V 8543 3700 50  0000 C CNN
+F 1 "R" V 8634 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 3700 50  0001 C CNN
+F 3 "~" H 8750 3700 50  0001 C CNN
+	1    8750 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:SFH617A-1X007T U10
+U 1 1 6093B2F7
+P 9400 3800
+F 0 "U10" H 9400 4125 50  0000 C CNN
+F 1 "SFH617A-1X007T" H 9400 4034 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 9400 3450 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 9400 3750 50  0001 L CNN
+	1    9400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 6093B2FD
+P 8775 3325
+F 0 "R15" V 8568 3325 50  0000 C CNN
+F 1 "R" V 8659 3325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8705 3325 50  0001 C CNN
+F 3 "~" H 8775 3325 50  0001 C CNN
+	1    8775 3325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 6093B303
+P 9350 4300
+F 0 "D6" H 9343 4045 50  0000 C CNN
+F 1 "LED" H 9343 4136 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 9350 4300 50  0001 C CNN
+F 3 "~" H 9350 4300 50  0001 C CNN
+	1    9350 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 6093B309
+P 8725 4675
+F 0 "R10" V 8518 4675 50  0000 C CNN
+F 1 "R" V 8609 4675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8655 4675 50  0001 C CNN
+F 3 "~" H 8725 4675 50  0001 C CNN
+	1    8725 4675
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:SFH617A-1X007T U9
+U 1 1 6093B30F
+P 9375 4775
+F 0 "U9" H 9375 5100 50  0000 C CNN
+F 1 "SFH617A-1X007T" H 9375 5009 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 9375 4425 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 9375 4725 50  0001 L CNN
+	1    9375 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 6093B315
+P 8750 4300
+F 0 "R13" V 8543 4300 50  0000 C CNN
+F 1 "R" V 8634 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 4300 50  0001 C CNN
+F 3 "~" H 8750 4300 50  0001 C CNN
+	1    8750 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 6093B31B
+P 9375 5250
+F 0 "D8" H 9368 4995 50  0000 C CNN
+F 1 "LED" H 9368 5086 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 9375 5250 50  0001 C CNN
+F 3 "~" H 9375 5250 50  0001 C CNN
+	1    9375 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 6093B321
+P 8750 5625
+F 0 "R14" V 8543 5625 50  0000 C CNN
+F 1 "R" V 8634 5625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 5625 50  0001 C CNN
+F 3 "~" H 8750 5625 50  0001 C CNN
+	1    8750 5625
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:SFH617A-1X007T U11
+U 1 1 6093B327
+P 9400 5725
+F 0 "U11" H 9400 6050 50  0000 C CNN
+F 1 "SFH617A-1X007T" H 9400 5959 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 9400 5375 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 9400 5675 50  0001 L CNN
+	1    9400 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 6093B32D
+P 8775 5250
+F 0 "R16" V 8568 5250 50  0000 C CNN
+F 1 "R" V 8659 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8705 5250 50  0001 C CNN
+F 3 "~" H 8775 5250 50  0001 C CNN
+	1    8775 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 6093BF8E
+P 10775 3550
+F 0 "J3" H 10855 3542 50  0000 L CNN
+F 1 "Conn_01x08" H 10855 3451 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_8-GF-5.08_1x08_P5.08mm_Horizontal_ThreadedFlange" H 10775 3550 50  0001 C CNN
+F 3 "~" H 10775 3550 50  0001 C CNN
+	1    10775 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

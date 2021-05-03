@@ -1,6 +1,8 @@
 [Ce README en français](README_fr.md)
 # Open test bench
 
+<img src="Definition/render7.png" alt="render">
+
 ## Introduction
 
 Open test bench is an open-source platform for drive or characterize any type of system.

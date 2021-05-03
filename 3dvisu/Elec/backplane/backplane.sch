@@ -19,7 +19,7 @@ U 1 1 608EB9B8
 P 1450 3300
 F 0 "J2" H 1557 4567 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1557 4476 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles" H 1600 3300 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1600 3300 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1600 3300 50  0001 C CNN
 	1    1450 3300
 	1    0    0    -1  
@@ -250,7 +250,7 @@ U 1 1 60907562
 P 13850 2150
 F 0 "J10" H 13900 2767 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 13900 2676 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 13850 2150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical_SMD" H 13850 2150 50  0001 C CNN
 F 3 "~" H 13850 2150 50  0001 C CNN
 	1    13850 2150
 	1    0    0    -1  
@@ -261,7 +261,7 @@ U 1 1 60908EA3
 P 13850 3400
 F 0 "J11" H 13900 4017 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 13900 3926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 13850 3400 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical_SMD" H 13850 3400 50  0001 C CNN
 F 3 "~" H 13850 3400 50  0001 C CNN
 	1    13850 3400
 	1    0    0    -1  
@@ -272,7 +272,7 @@ U 1 1 6090B645
 P 12525 2125
 F 0 "J8" H 12575 2742 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 12575 2651 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 12525 2125 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical_SMD" H 12525 2125 50  0001 C CNN
 F 3 "~" H 12525 2125 50  0001 C CNN
 	1    12525 2125
 	1    0    0    -1  
@@ -283,7 +283,7 @@ U 1 1 6090B64B
 P 12525 3375
 F 0 "J9" H 12575 3992 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 12575 3901 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 12525 3375 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical_SMD" H 12525 3375 50  0001 C CNN
 F 3 "~" H 12525 3375 50  0001 C CNN
 	1    12525 3375
 	1    0    0    -1  
@@ -294,7 +294,7 @@ U 1 1 6090C345
 P 11175 2175
 F 0 "J6" H 11225 2792 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 11225 2701 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 11175 2175 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical_SMD" H 11175 2175 50  0001 C CNN
 F 3 "~" H 11175 2175 50  0001 C CNN
 	1    11175 2175
 	1    0    0    -1  
@@ -305,7 +305,7 @@ U 1 1 6090C34B
 P 11175 3425
 F 0 "J7" H 11225 4042 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 11225 3951 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 11175 3425 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical_SMD" H 11175 3425 50  0001 C CNN
 F 3 "~" H 11175 3425 50  0001 C CNN
 	1    11175 3425
 	1    0    0    -1  
@@ -316,7 +316,7 @@ U 1 1 6090D12F
 P 9725 2225
 F 0 "J3" H 9775 2842 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 9775 2751 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 9725 2225 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical_SMD" H 9725 2225 50  0001 C CNN
 F 3 "~" H 9725 2225 50  0001 C CNN
 	1    9725 2225
 	1    0    0    -1  
@@ -327,7 +327,7 @@ U 1 1 6090D135
 P 9725 3475
 F 0 "J4" H 9775 4092 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 9775 4001 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 9725 3475 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical_SMD" H 9725 3475 50  0001 C CNN
 F 3 "~" H 9725 3475 50  0001 C CNN
 	1    9725 3475
 	1    0    0    -1  

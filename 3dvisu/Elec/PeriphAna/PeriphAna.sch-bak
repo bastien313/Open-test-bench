@@ -1,0 +1,280 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J1
+U 1 1 60922499
+P 1800 2950
+F 0 "J1" H 1850 3567 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 1850 3476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Horizontal" H 1800 2950 50  0001 C CNN
+F 3 "~" H 1800 2950 50  0001 C CNN
+	1    1800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J2
+U 1 1 609232EE
+P 1800 4250
+F 0 "J2" H 1850 4867 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 1850 4776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Horizontal" H 1800 4250 50  0001 C CNN
+F 3 "~" H 1800 4250 50  0001 C CNN
+	1    1800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 60924750
+P 2750 2700
+F 0 "C1" H 2865 2746 50  0000 L CNN
+F 1 "CP1" H 2865 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.7" H 2750 2700 50  0001 C CNN
+F 3 "~" H 2750 2700 50  0001 C CNN
+	1    2750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:ADuM1200WT U2
+U 1 1 609254DF
+P 4150 3425
+F 0 "U2" H 4150 3892 50  0000 C CNN
+F 1 "ADuM1200WT" H 4150 3801 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4150 3025 50  0001 C CIN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf" H 3700 3825 50  0001 C CNN
+	1    4150 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:ADuM1200WT U3
+U 1 1 60925F31
+P 4150 4225
+F 0 "U3" H 4150 4692 50  0000 C CNN
+F 1 "ADuM1200WT" H 4150 4601 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4150 3825 50  0001 C CIN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf" H 3700 4625 50  0001 C CNN
+	1    4150 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Converter_DCDC:TMR-2412 U1
+U 1 1 60927E3B
+P 4150 2450
+F 0 "U1" H 4150 2917 50  0000 C CNN
+F 1 "TMR-2412" H 4150 2826 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT" H 4150 2100 50  0001 C CNN
+F 3 "https://www.tracopower.com/products/tmr2.pdf" H 4150 1950 50  0001 C CNN
+	1    4150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 6092CB06
+P 5375 2575
+F 0 "C4" H 5490 2621 50  0000 L CNN
+F 1 "CP1" H 5490 2530 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.7" H 5375 2575 50  0001 C CNN
+F 3 "~" H 5375 2575 50  0001 C CNN
+	1    5375 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6092D218
+P 5800 2550
+F 0 "C5" H 5915 2596 50  0000 L CNN
+F 1 "C" H 5915 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5838 2400 50  0001 C CNN
+F 3 "~" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 6092D8CA
+P 5275 3425
+F 0 "C2" H 5390 3471 50  0000 L CNN
+F 1 "C" H 5390 3380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5313 3275 50  0001 C CNN
+F 3 "~" H 5275 3425 50  0001 C CNN
+	1    5275 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6092DAE4
+P 5300 4250
+F 0 "C3" H 5415 4296 50  0000 L CNN
+F 1 "C" H 5415 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5338 4100 50  0001 C CNN
+F 3 "~" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 609034C3
+P 9900 2525
+F 0 "J3" H 10000 2500 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10000 2409 50  0000 L CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 9900 2525 50  0001 C CNN
+F 3 " ~" H 9900 2525 50  0001 C CNN
+	1    9900 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 60904409
+P 9900 3750
+F 0 "J4" H 10000 3725 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10000 3634 50  0000 L CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 9900 3750 50  0001 C CNN
+F 3 " ~" H 9900 3750 50  0001 C CNN
+	1    9900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Instrumentation:AD623BR U4
+U 1 1 60904DA2
+P 8725 2600
+F 0 "U4" H 9269 2554 50  0000 L CNN
+F 1 "AD623BR" H 9269 2645 50  0000 L CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 8625 2600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf" H 9175 2200 50  0001 C CNN
+	1    8725 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Instrumentation:AD623BR U5
+U 1 1 609056EA
+P 8750 3850
+F 0 "U5" H 9294 3804 50  0000 L CNN
+F 1 "AD623BR" H 9294 3895 50  0000 L CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 8650 3850 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf" H 9200 3450 50  0001 C CNN
+	1    8750 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 60905BC1
+P 8425 1875
+F 0 "C7" H 8540 1921 50  0000 L CNN
+F 1 "C" H 8540 1830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8463 1725 50  0001 C CNN
+F 3 "~" H 8425 1875 50  0001 C CNN
+	1    8425 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 6090605E
+P 8850 1875
+F 0 "C9" H 8965 1921 50  0000 L CNN
+F 1 "C" H 8965 1830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8888 1725 50  0001 C CNN
+F 3 "~" H 8850 1875 50  0001 C CNN
+	1    8850 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 6090615F
+P 8350 4525
+F 0 "C6" H 8465 4571 50  0000 L CNN
+F 1 "C" H 8465 4480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8388 4375 50  0001 C CNN
+F 3 "~" H 8350 4525 50  0001 C CNN
+	1    8350 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 609064DE
+P 8825 4600
+F 0 "C8" H 8940 4646 50  0000 L CNN
+F 1 "C" H 8940 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8863 4450 50  0001 C CNN
+F 3 "~" H 8825 4600 50  0001 C CNN
+	1    8825 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6090857F
+P 8125 2900
+F 0 "R4" V 7918 2900 50  0000 C CNN
+F 1 "R" V 8009 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8055 2900 50  0001 C CNN
+F 3 "~" H 8125 2900 50  0001 C CNN
+	1    8125 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 609090E6
+P 8125 3100
+F 0 "R5" V 7918 3100 50  0000 C CNN
+F 1 "R" V 8009 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8055 3100 50  0001 C CNN
+F 3 "~" H 8125 3100 50  0001 C CNN
+	1    8125 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60909216
+P 8125 3300
+F 0 "R6" V 7918 3300 50  0000 C CNN
+F 1 "R" V 8009 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8055 3300 50  0001 C CNN
+F 3 "~" H 8125 3300 50  0001 C CNN
+	1    8125 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6090ACF9
+P 7825 4325
+F 0 "R1" V 7618 4325 50  0000 C CNN
+F 1 "R" V 7709 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7755 4325 50  0001 C CNN
+F 3 "~" H 7825 4325 50  0001 C CNN
+	1    7825 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6090ACFF
+P 7825 4525
+F 0 "R2" V 7618 4525 50  0000 C CNN
+F 1 "R" V 7709 4525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7755 4525 50  0001 C CNN
+F 3 "~" H 7825 4525 50  0001 C CNN
+	1    7825 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6090AD05
+P 7825 4725
+F 0 "R3" V 7618 4725 50  0000 C CNN
+F 1 "R" V 7709 4725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7755 4725 50  0001 C CNN
+F 3 "~" H 7825 4725 50  0001 C CNN
+	1    7825 4725
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

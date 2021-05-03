@@ -1,5 +1,7 @@
 # Open test bench
 
+<img src="Definition/render7.png" alt="render">
+
 ## Introduction
 
 Open test bench et une plateforme hardware open source permettant  le contrôle  et la caractérisation de tout type de système.
