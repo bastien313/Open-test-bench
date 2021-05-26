@@ -191,5 +191,5 @@ F28 "MEM_I2C_SDA" B L 9950 4050 50
 F29 "MEM_I2C_SCL" I L 9950 4150 50 
 $EndSheet
 Text Notes 1550 2600 0    50   ~ 0
-STM32H735VGT5\nF:3576961\n\nserie STM32H725 pobablement compatible
+STM32H725ZGT6\nF:3576963 \n\nserie STM32H735 pobablement compatible
 $EndSCHEMATC
