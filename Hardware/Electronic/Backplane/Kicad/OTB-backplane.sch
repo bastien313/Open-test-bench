@@ -193,7 +193,7 @@ $EndSheet
 Text Notes 1550 2600 0    50   ~ 0
 STM32H725ZGT6\nF:3576963 \n\nserie STM32H735 pobablement compatible
 $Comp
-L myLibS:STM32H725Z U??
+L OTB-backplane-rescue:STM32H725Z-myLibS U??
 U 1 1 60B11ED4
 P 6475 5500
 F 0 "U??" H 6400 1536 150 0000 C CNB
@@ -203,4 +203,278 @@ F 3 "" H 275 6100 50  0001 C CNN
 	1    6475 5500
 	1    0    0    -1  
 $EndComp
+Text Label 4200 5150 0    50   ~ 0
+SPI4_NSS
+Text Label 4200 4950 0    50   ~ 0
+SPI4_SCK
+Text Label 4200 5250 0    50   ~ 0
+SPI4_MISO
+Text Label 4200 5350 0    50   ~ 0
+SPI4_MOSI
+Text Label 8600 8250 2    50   ~ 0
+SPI5_NSS
+Text Label 8600 8350 2    50   ~ 0
+SPI5_SCK
+Text Label 8600 8450 2    50   ~ 0
+SPI5_MISO
+Text Label 8600 8550 2    50   ~ 0
+SPI5_MOSI
+Text Notes 4350 7600 0    50   ~ 0
+RCC_osc
+Text Label 8600 6800 2    50   ~ 0
+SPI2_MOSI
+Text Label 8600 6700 2    50   ~ 0
+SPI2_MISO
+Text Label 8650 3000 2    50   ~ 0
+USART2_CTS
+Text Label 4125 3400 0    50   ~ 0
+USART2_RTS
+Text Label 4125 3500 0    50   ~ 0
+USART2_TX
+Text Label 8650 3300 2    50   ~ 0
+USART2_RX
+Wire Notes Line
+	8650 3850 8750 3850
+Wire Notes Line
+	8750 3850 8750 4250
+Wire Notes Line
+	8750 4250 8650 4250
+Wire Notes Line
+	8750 4050 8900 4050
+Wire Notes Line
+	8900 4050 8850 4000
+Wire Notes Line
+	8900 4050 8850 4100
+Text Notes 8900 4050 0    50   ~ 0
+PC
+Text Label 8650 3400 2    50   ~ 0
+SPI3_NSS
+Text Label 8650 3500 2    50   ~ 0
+SPI1_SCK
+Text Label 8650 3600 2    50   ~ 0
+SPI1_MISO
+Text Label 4150 3700 0    50   ~ 0
+SPI1_MOSI
+Text Label 8700 4750 2    50   ~ 0
+USAR4_CTS
+Text Label 8700 4950 2    50   ~ 0
+SPI3_MOSI
+Text Label 8600 8850 2    50   ~ 0
+I2C4_SCL
+Text Label 8600 8950 2    50   ~ 0
+I2C4_SDA
+Text Label 4200 5450 0    50   ~ 0
+UART7_RX
+Text Label 4200 5550 0    50   ~ 0
+UART7_TX
+Text Label 4150 5650 0    50   ~ 0
+UART7_RTS
+Text Label 4150 5750 0    50   ~ 0
+UART7_CTS
+Text Label 8600 5750 2    50   ~ 0
+I2C2_SCL
+Text Label 8600 5850 2    50   ~ 0
+I2C2_SDA
+Text Label 8600 5650 2    50   ~ 0
+SPI2_NSS
+Text Label 8600 6050 2    50   ~ 0
+SPI2_SCK
+Text Label 8600 6150 2    50   ~ 0
+UART4_RTS
+Text Label 4150 3800 0    50   ~ 0
+USART3_TX
+Text Label 4150 3900 0    50   ~ 0
+USART3_RX
+Text Label 4150 4100 0    50   ~ 0
+USART3_CTS
+Text Label 4150 4200 0    50   ~ 0
+USART3_RTS
+Text Label 4100 6700 0    50   ~ 0
+USART6_RTS
+Text Label 8650 7100 2    50   ~ 0
+USART6_TX
+Text Label 8650 7200 2    50   ~ 0
+USART6_RX
+Text Label 8650 7400 2    50   ~ 0
+I2C3_SDA
+Text Label 8650 3800 2    50   ~ 0
+I2C3_SCL
+Text Label 8650 3900 2    50   ~ 0
+USART1_TX
+Text Label 8650 4100 2    50   ~ 0
+USART1_CTS
+Text Label 8650 4200 2    50   ~ 0
+USART1_RTS
+Text Label 8650 4300 2    50   ~ 0
+JTMS_SWDIO
+Text Label 8650 4400 2    50   ~ 0
+JTCK_SWCLK
+Text Label 8650 4500 2    50   ~ 0
+SPI1_NSS
+Text Label 8650 7500 2    50   ~ 0
+I2C5_SDA
+Text Label 8650 7600 2    50   ~ 0
+I2C5_SCL
+Text Label 4150 3000 0    50   ~ 0
+UART4_RX
+Text Label 4150 3100 0    50   ~ 0
+UART4_TX
+Text Label 4100 7200 0    50   ~ 0
+USART6_CTS
+Text Label 8700 5050 2    50   ~ 0
+SPI3_SCK
+Text Label 8700 5150 2    50   ~ 0
+SPI3_MISO
+Text Label 8700 5350 2    50   ~ 0
+I2C1_SCL
+Text Label 8700 5450 2    50   ~ 0
+I2C1_SDA
+Text Label 8650 4000 2    50   ~ 0
+USART1_RX
+Text Label 12000 2625 0    50   ~ 0
+GPIO_0_0
+Text Label 12000 2725 0    50   ~ 0
+GPIO_0_1
+Text Label 12000 2825 0    50   ~ 0
+GPIO_0_2
+Text Label 12000 2925 0    50   ~ 0
+GPIO_0_3
+Text Label 12000 3025 0    50   ~ 0
+GPIO_0_4
+Text Label 12000 3125 0    50   ~ 0
+GPIO_0_5
+Text Label 12000 3225 0    50   ~ 0
+GPIO_0_6
+Text Label 12000 3325 0    50   ~ 0
+GPIO_0_7
+Text Label 14025 2625 0    50   ~ 0
+GPIO_1_0
+Text Label 14025 2725 0    50   ~ 0
+GPIO_1_1
+Text Label 14025 2825 0    50   ~ 0
+GPIO_1_2
+Text Label 14025 2925 0    50   ~ 0
+GPIO_1_3
+Text Label 14025 3025 0    50   ~ 0
+GPIO_1_4
+Text Label 14025 3125 0    50   ~ 0
+GPIO_1_5
+Text Label 14025 3225 0    50   ~ 0
+GPIO_1_6
+Text Label 14025 3325 0    50   ~ 0
+GPIO_1_7
+Text Label 12000 6750 0    50   ~ 0
+GPIO_2_0
+Text Label 12000 6850 0    50   ~ 0
+GPIO_2_1
+Text Label 12000 6950 0    50   ~ 0
+GPIO_2_2
+Text Label 12000 7050 0    50   ~ 0
+GPIO_2_3
+Text Label 12000 7150 0    50   ~ 0
+GPIO_2_4
+Text Label 12000 7250 0    50   ~ 0
+GPIO_2_5
+Text Label 12000 7350 0    50   ~ 0
+GPIO_2_6
+Text Label 12000 7450 0    50   ~ 0
+GPIO_2_7
+Text Label 13950 6750 0    50   ~ 0
+GPIO_3_0
+Text Label 13950 6850 0    50   ~ 0
+GPIO_3_1
+Text Label 13950 6950 0    50   ~ 0
+GPIO_3_2
+Text Label 13950 7050 0    50   ~ 0
+GPIO_3_3
+Text Label 13950 7150 0    50   ~ 0
+GPIO_3_4
+Text Label 13950 7250 0    50   ~ 0
+GPIO_3_5
+Text Label 13950 7350 0    50   ~ 0
+GPIO_3_6
+Text Label 13950 7450 0    50   ~ 0
+GPIO_3_7
+Text Label 8600 6600 2    50   ~ 0
+ETH_MDC
+Text Label 8675 3100 2    50   ~ 0
+ETH_REF_CLK
+Text Label 8675 3200 2    50   ~ 0
+ETH_MDIO
+Text Label 8650 3700 2    50   ~ 0
+ETH_CRS_DV
+Text Label 8600 6900 2    50   ~ 0
+ETH_RXD0
+Text Label 8600 7000 2    50   ~ 0
+ETH_RXD1
+Text Label 8600 5950 2    50   ~ 0
+ETH_TXD0
+Text Label 4100 7000 0    50   ~ 0
+ETH_TX_EN
+Text Label 4100 7100 0    50   ~ 0
+ETH_TXD1
+Text Label 4125 3200 0    50   ~ 0
+GPIO_0_0
+Text Label 4125 3300 0    50   ~ 0
+GPIO_0_1
+Text Label 4125 3600 0    50   ~ 0
+GPIO_0_2
+Text Label 4150 4000 0    50   ~ 0
+GPIO_0_3
+Text Label 4150 4300 0    50   ~ 0
+GPIO_0_4
+Text Label 4150 4400 0    50   ~ 0
+GPIO_0_5
+Text Label 4150 4500 0    50   ~ 0
+GPIO_0_6
+Text Label 4175 4750 0    50   ~ 0
+GPIO_0_7
+Text Label 4100 6600 0    50   ~ 0
+GPIO_2_0
+Text Label 4100 6800 0    50   ~ 0
+GPIO_2_1
+Text Label 4100 6900 0    50   ~ 0
+GPIO_2_2
+Text Label 4100 7300 0    50   ~ 0
+GPIO_2_3
+Text Label 8700 4850 2    50   ~ 0
+GPIO_2_4
+Text Label 8700 5250 2    50   ~ 0
+GPIO_2_5
+Text Label 8700 5550 2    50   ~ 0
+GPIO_2_6
+Text Label 8600 6250 2    50   ~ 0
+GPIO_2_7
+Text Label 4175 4850 0    50   ~ 0
+GPIO_1_0
+Text Label 4200 5050 0    50   ~ 0
+GPIO_1_1
+Text Label 4175 5850 0    50   ~ 0
+GPIO_1_2
+Text Label 4175 5950 0    50   ~ 0
+GPIO_1_3
+Text Label 4175 6050 0    50   ~ 0
+GPIO_1_4
+Text Label 4175 6150 0    50   ~ 0
+GPIO_1_5
+Text Label 4175 6250 0    50   ~ 0
+GPIO_1_6
+Text Label 4100 6500 0    50   ~ 0
+GPIO_1_7
+Text Label 8600 6500 2    50   ~ 0
+GPIO_3_0
+Text Label 8650 7300 2    50   ~ 0
+GPIO_3_1
+Text Label 8650 7700 2    50   ~ 0
+GPIO_3_2
+Text Label 8650 7800 2    50   ~ 0
+GPIO_3_3
+Text Label 8650 7900 2    50   ~ 0
+GPIO_3_4
+Text Label 8650 8000 2    50   ~ 0
+GPIO_3_5
+Text Label 8600 8650 2    50   ~ 0
+GPIO_3_6
+Text Label 8600 8750 2    50   ~ 0
+GPIO_3_7
 $EndSCHEMATC

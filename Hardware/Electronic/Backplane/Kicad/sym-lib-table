@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OTB-backplane-rescue)(type Legacy)(uri ${KIPRJMOD}/OTB-backplane-rescue.lib)(options "")(descr ""))
+)
