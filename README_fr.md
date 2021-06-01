@@ -33,6 +33,18 @@ D'autre modules peuvent être ajoutés via une un module d'extension avec des vi
 
 Les modules périphériques assurent la liaison avec le monde réel.
 Chaque module a accès à 4 canaux de communications dédiés et utilise ceux qui sont nécessaires.
+- SPI avec CS
+- UART avec RTS/CTS
+- I2C
+- 8 GPIO
+
+Chaque module a accès à un autre cannal I2C (I2C_CONTROL) pour la gestion d'une memoire(EEPROM) utilisé pour des données de calibrations.
+
+#### Demi-périphérique
+2 Connecteurs sonts utilisés pour un peripherique, cela permet le développement de demi module:
+- Top module permet l'acces aux canaux SPI et UART.
+- Bottom module permet l'acces aux canaux 8 GPIO et I2C.
+Chaques modules a un acces vers I2C_CONTROL pour utiliser sa propre EEPROM.
 
 #### Les possibilités sont larges
 - Mesure de tension / courant.
@@ -47,7 +59,11 @@ Chaque module a accès à 4 canaux de communications dédiés et utilise ceux qu
 - Encombrement mécanique (TBD), possibilité d'un double module.
 
 ### Module d'extension
-TBD
+Le module d'extension permet l'extension des capacité de l'unité fond de panier avec un vitesse de communication plus lente.
+Chaque cannal de communication (UART, I2C, SPI) est multiplexé vers les diferents modules périphériques.
+Des GPIO expander sont utilisés pour la gestion des GPIO(bottom)
 
 ### Définition préliminaire
 <img src="Definition/PreliminaryDef.jpg" alt="Définition préliminaire">
+### Extension definition
+<img src="Definition/Extend.jpg" alt="Extension definition">
